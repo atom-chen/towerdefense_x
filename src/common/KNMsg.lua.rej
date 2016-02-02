@@ -1,0 +1,9 @@
+diff a/Common/KNMsg.lua b/Common/KNMsg.lua	(rejected hunks)
+@@ -88,7 +88,6 @@
+ 				local isCancel = true--æ˜¯å¦å­˜åœ¨ å–æ¶ˆ å›žè°ƒ
+ 				local isConfirm = false--æ˜¯å¦å­˜åœ¨ ç¡®å®š å›žè°ƒ
+ 
+-				isCancel = isset(args , "cancelFun")
+ 				--isCancel = isset(args , "cancelFun")
+ 				--isConfirm = isset(args , "confirmFun")
+ 				content:retain()
